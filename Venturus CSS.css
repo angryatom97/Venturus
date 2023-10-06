@@ -1,0 +1,121 @@
+/* Reset some default styling */
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #666;
+    background-color: #f0f0f0;
+}
+
+/* Style the header */
+header {
+    background-color: #000000;
+    color: #598392;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Archivo', sans-serif;
+}
+
+/* Style for the images section */
+.images-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 20px;
+}
+
+.images-section img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Style for the services section */
+#services {
+    background-color: #598392;
+    color: #000000;
+    padding: 20px;
+    font-family: 'Staatliches', sans-serif;
+    font-size: 48px;
+}
+
+.service-item {
+    background-color: #598392;
+    color: #FFFFFF;
+    padding: 20px;
+    margin: 10px 0;
+    font-family: 'Archivo', sans-serif;
+    font-size: 16px;
+}
+
+.service-item h2 {
+    color: #000000;
+    font-size: 20px;
+}
+
+/* Style for the contact form section */
+#contact {
+    background-color: #598392;
+    color: #000000;
+    padding: 20px;
+    font-family: 'Archivo', sans-serif;
+    font-size: 16px;
+}
+
+#contact h2 {
+    font-size: 48px;
+}
+
+#contact form input,
+#contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 20px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: 'Archivo', sans-serif;
+    font-size: 16px;
+}
+
+#contact form button {
+    width: 100%;
+    background-color: #FFFFFF;
+    color: #000000;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Archivo', sans-serif;
+    font-size: 16px;
+}
+
+/* Style for the footer */
+footer {
+    background-color: #598392;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px 20px;
+    font-family: 'Archivo', sans-serif;
+    font-size: 16px;
+}
+
+footer a {
+    color: #FFFFFF;
+    margin: 0 10px;
+}
+
+/* Media query for responsiveness */
+@media screen and (max-width: 600px) {
+    .images-section {
+        grid-template-columns: 1fr;
+    }
+}
